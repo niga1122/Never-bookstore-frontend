@@ -8,7 +8,7 @@ export default defineConfig({
     proxy: {
       '/api': {
         // target: 'http://localhost:5000',
-        target: 'az121-f9b6b5gte3fqc5b2.polandcentral-01.azurewebsites.net',
+        target: 'neverbookstore-gmhvfea8gudxhnfd.polandcentral-01.azurewebsites.net',
         changeOrigin: true,
       },
     },
