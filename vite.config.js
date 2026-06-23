@@ -7,7 +7,8 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        // target: 'http://localhost:5000',
+        target: 'az121-f9b6b5gte3fqc5b2.polandcentral-01.azurewebsites.net',
         changeOrigin: true,
       },
     },
