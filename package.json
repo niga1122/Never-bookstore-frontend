@@ -2,21 +2,20 @@
   "name": "bookstore-frontend",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "dependencies": {
     "axios": "^1.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.0.8"
+    "react-router-dom": "^6.20.1",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
-    "dev": "vite",
-    "start": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "proxy": "az121-f9b6b5gte3fqc5b2.polandcentral-01.azurewebsites.net",
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   }
 }
