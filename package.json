@@ -18,7 +18,7 @@
   "build": "vite build",
   "preview": "vite preview"
 },
-  "proxy": "https://neverbookstore-gmhvfea8gudxhnfd.polandcentral-01.azurewebsites.net",
+  "proxy": "https://neverbookstore-gmhvfea8gudxhnfd.polandcentral-01.azurewebsites.net/api/",
   "browserslist": {
     "production": [
       ">0.2%",
